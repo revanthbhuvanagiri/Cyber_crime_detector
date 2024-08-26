@@ -1,2 +1,2 @@
-ibm-watsonx-ai
-openpyxl
+ibm-watsonx-ai==1.1.6
+openpyxl==3.1.5
