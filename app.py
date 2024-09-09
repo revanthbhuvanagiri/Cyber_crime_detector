@@ -27,14 +27,14 @@ space_id = os.getenv("SPACE_ID")
 def get_credentials():
     return {
         "url": "https://us-south.ml.cloud.ibm.com",
-        "apikey": "d38ImtKqLpIRMGcIHnbELRc9r4niWjXKHPMDqKbNYrC5"
+        "apikey": ""
     }
  
 model = Model(
     model_id=model_id,
     params=parameters,
     credentials=get_credentials(),
-    project_id="bcf9d59d-48aa-4aa0-a251-dc010d26afb5",
+    project_id="",
     space_id=space_id
 )
  
